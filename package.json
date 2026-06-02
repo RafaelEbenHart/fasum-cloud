@@ -1,19 +1,28 @@
 {
   "name": "fasum-cloud",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Backend server for Fasum Cloud, a cloud-based facility management system.",
   "keywords": [
     "nodejs",
     "express",
     "firebase"
   ],
-  "author": "Evan Gunawan",
+  "homepage": "https://github.com/RafaelEbenHart/fasum-cloud#readme",
+  "bugs": {
+    "url": "https://github.com/RafaelEbenHart/fasum-cloud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelEbenHart/fasum-cloud.git"
+  },
   "license": "ISC",
-  "description": "Backend server for Fasum Cloud, a cloud-based facility management system.",
+  "author": "Rafael Eben Hart",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "body-parser": "^2.2.2",
     "cors": "^2.8.6",
